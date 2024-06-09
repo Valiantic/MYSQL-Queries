@@ -23,8 +23,9 @@
 
 -- > SEARCHING
 
--- # Kung ano yung naiibang column sa lahat sya ang iuna mong ijoin 
--- # Tas kung ano naman ang pinakamaraming column sya ang inext mong ijoin whether RIGHT/LEFT JOIN
+-- # Kung ano yung naiibang column sa lahat sya ang iuna mong ijoin FROM tbl_name followed by ON for verification
+-- # Tas kung ano naman ang pinakamaraming column sya ang inext mong ijoin whether RIGHT/LEFT JOIN followed rin by ON for verification
+
 
  SELECT tbl_students.Stud_Name, tbl_students.Program, tbl_subjects.Subj_Name, tbl_schedule.Room FROM tbl_subjects JOIN tbl_schedule
      ON tbl_subjects.Subj_ID = tbl_schedule.Subj_ID
