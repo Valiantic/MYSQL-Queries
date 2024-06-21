@@ -1,3 +1,11 @@
+
+-- XAMPP PORT PROBLEM 
+-- run cmd as administrator
+
+-- netstat -aon | findstr : port 
+-- taskkill /F /pid portfromnetstat
+
+
 -- REVIEWER 
 
 -- > PARENT CREATION 
