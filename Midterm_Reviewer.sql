@@ -2,8 +2,10 @@
 -- XAMPP PORT PROBLEM 
 -- run cmd as administrator
 
--- netstat -aon | findstr : port 
--- taskkill /F /pid portfromnetstat
+-- netstat -aon | findstr :port // stick the port directll to : 
+
+
+-- taskkill /F /pid portfromnetstat // portfromnetstat the port resulted by netstat command in the left top side LISTENING
 
 
 -- REVIEWER 
