@@ -1,5 +1,5 @@
 
--- XAMPP PORT PROBLEM 
+-- XAMPP PORT PROBLEM (move this later to another file
 -- run cmd as administrator
 
 -- netstat -aon | findstr :port // stick the port directll to : 
