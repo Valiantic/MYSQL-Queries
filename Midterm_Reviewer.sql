@@ -1,14 +1,4 @@
 
--- XAMPP PORT PROBLEM (move this later to another file
--- run cmd as administrator
-
--- netstat -aon | findstr :port // stick the port directll to : 
-
-
--- taskkill /F /pid portfromnetstat // portfromnetstat the port resulted by netstat command in the left top side LISTENING
-
-
--- REVIEWER 
 
 -- > PARENT CREATION 
  CREATE TABLE tbl_students
