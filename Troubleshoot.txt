@@ -1,3 +1,9 @@
+-- ACCESSING MARIADB 
+
+cd "C:\Program Files\MariaDB 11.3\bin"  // USUALLY MARIADB IS INSTALLED BUT TRY TO LOOK WHERE IT WAS INSTALLED
+mysql -u root -p
+
+
 -- XAMPP PORT PROBLEM 
 Port 3306 in use by "Unable to open process"!
 
