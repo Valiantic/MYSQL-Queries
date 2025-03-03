@@ -1,4 +1,32 @@
 
+-- INSERTIN DATA 
+INSERT INTO users (username, email)
+VALUES ('jane_doe', 'jane@example.com'),
+       ('alice', 'alice@example.com');
+
+-- UPDATE DATA
+UPDATE users
+SET email = 'new_email@example.com'
+WHERE username = 'john_doe';
+
+-- DELETE DATA
+DELETE FROM users
+WHERE id = 7;
+
+DELETE FROM users
+WHERE email IS NULL;
+
+-- UNDO AND REDO
+START TRANSACTION;
+
+UPDATE users SET email = 'temp_email@example.com' WHERE id = 1;
+
+-- If everything looks good:
+COMMIT;
+-- If something went wrong:
+-- ROLLBACK;
+
+
 
 -- > PARENT CREATION 
  CREATE TABLE tbl_students
