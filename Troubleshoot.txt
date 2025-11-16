@@ -16,3 +16,8 @@ Port 3306 in use by "Unable to open process"!
 
 
 -- taskkill /F /pid portfromnetstat // portfromnetstat the port resulted by netstat command in the left top side LISTENING
+
+-- POWERSHELL NPM RESTRICTION
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+NOTE: RUN WINDOWS POWERSHELL AS ADMINISTRATOR THEN WHEN PROMPTED CLICK YES
+
